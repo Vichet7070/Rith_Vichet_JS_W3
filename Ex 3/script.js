@@ -46,7 +46,7 @@ character_info({
     health: 75,
     maxHealth: 100,
     stats: {
-        hps: 20,
+        hps: 21,
         pwr: 16,
         atk: 7,
         mov: 3,
