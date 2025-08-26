@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="character-card">
+        <div class="header">
+            <div class="portrait">
+                <!-- get your pic here  on src = "./pic_name"-->
+                <img id="character-image" src="./Girr.jpg" alt="Character Portrait">
+            </div>
+            <div class="info">
+                <h1 id="character-name"></h1>
+                <div class="level-info">
+                    <span>Lv:</span> <span id="character-level"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="details">
+            <div class="health">
+                <label>Health:</label>
+                <div class="health-bar-container">
+                    <div id="health-bar-fill"></div>
+                </div>
+                <div id="health-value"></div>
+            </div>
+            <div class="stat-section">
+                <h3>Stats</h3>
+                <div class="stats-grid">
+                    <div class="stat-item"><span class="stat-label">Hps:</span> <span id="stat-hps"></span></div>
+                    <div class="stat-item"><span class="stat-label">Pwr:</span> <span id="stat-pwr"></span></div>
+                    <div class="stat-item"><span class="stat-label">Atk:</span> <span id="stat-atk"></span></div>
+                    <div class="stat-item"><span class="stat-label">Mov:</span> <span id="stat-mov"></span></div>
+                    <div class="stat-item"><span class="stat-label">Def:</span> <span id="stat-def"></span></div>
+                    <div class="stat-item"><span class="stat-label">Chr:</span> <span id="stat-chr"></span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="inventory">
+                <span id="inventory-info"></span>
+            </div>
+            <div class="gold">
+                <span>Gold:</span> <span id="character-gold"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
